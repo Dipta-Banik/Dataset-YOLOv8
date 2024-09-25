@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['bird_dropping', 'dust_partical', 'old_leaf']
+
+roboflow:
+  workspace: solar-project-4itay
+  project: dust-detection-9nnyy
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/solar-project-4itay/dust-detection-9nnyy/dataset/2
